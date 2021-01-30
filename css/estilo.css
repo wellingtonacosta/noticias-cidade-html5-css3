@@ -33,6 +33,16 @@ body{
 
 /*BARRA DE NAVEGAÇÃO*/
 
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+
+a:hover {
+	color: #505050;
+
+}
+
 ul{
 	margin: 0;
 	padding: 0;
@@ -230,8 +240,8 @@ h3 {
 }
 
 #lista-noticias li a p {
-	text-decoration: none;
 	font-size: 0.7em;
+	color: #000;
 }
 
 #lista-noticias li:hover {
